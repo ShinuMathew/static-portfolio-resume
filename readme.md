@@ -5,3 +5,6 @@
 ![Desktop view](/desktop-screenshot.png?raw=true "Hitesh")
 
 ![Mobile view](/mobile-screenshot.png?raw=true "Hitesh")
+
+## NOTE: 
+_Need to update the skills section with grid_
