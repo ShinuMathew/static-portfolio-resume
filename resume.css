@@ -1,0 +1,578 @@
+.head1 {
+  font-size: 80px;
+  padding-top: 10px;
+}
+
+.cand_name {
+  text-align: right !important;
+}
+
+.designation {
+  font-size: 30px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header_section {
+  background-color: #343d64;
+  color: white;
+  font-family: "Playfair Display", serif, cursive;
+}
+
+.profilepic {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.summary {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+}
+
+.experience_content{
+  position: relative;
+  padding-left: 15px;
+}
+
+.heading1 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.heading3 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.section2 {
+  margin-top: 20px; 
+  padding-top: 20px;
+  background-image: linear-gradient(to right, white 0%, #93a0d8 100%);
+}
+
+.year1 {
+  background-image: linear-gradient(to left, white 0%, #93a0d8 200%);
+  text-align: center;
+  vertical-align: middle !important;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.year2 {
+  background-image: linear-gradient(to left, white 0%, #93a0d8 200%);
+  text-align: center;
+  vertical-align: middle !important;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.year3 {
+  background-image: linear-gradient(to left, white 0%, #93a0d8 200%);
+  text-align: center;
+  vertical-align: middle !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.explist {
+  font-size: 20px;
+}
+
+.fyyrs {
+  background-image: linear-gradient(to left, white 0%, #93a0d8 200%);
+  text-align: center;
+  vertical-align: middle !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.edu_years {
+  background-image: linear-gradient(to left, white 0%, #93a0d8 200%);
+  text-align: center;
+  vertical-align: middle !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.award {
+  text-align: left;
+  vertical-align: middle !important;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.edu_content {
+  text-align: left;
+  vertical-align: middle !important;
+  padding-left: 20px;
+}
+
+.edu_div {
+  padding-top: 20px;
+}
+
+.awardcontent {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.exp_header {
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.edu_content {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.heading2 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.heading3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.profeciency {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.profeciency_header {
+  font-size: 40px;
+}
+
+.languages {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.language {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.rating {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.frameworks {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.framework {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.tools {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.tool {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.databases {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.database {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.rating {
+  font-size: 30px;
+}
+.final_brk {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .cand_name {
+    text-align: right;
+  }
+  .profeciency_header {
+    font-size: 30px;
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+  .personal_infos {
+    font-size: 15px;
+  }
+  .language {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .framework {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .tool {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .database {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .rating {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .years1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .year_header {
+    font-size: 15px;
+  }
+  .awardname {
+    font-size: 20px;
+  }
+  .edu_name {
+    font-size: 20px;
+  }
+  .profeciency_header {
+    font-size: 25px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+  .language {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .framework {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .tool {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .database {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .rating {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .head1 {
+    font-size: 50px;
+  }
+  .desig {
+    font-size: 25px;
+  }
+  .summary {
+    font-size: 15px;
+  }
+  .exp_header {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .heading1 {
+    font-size: 30px;
+  }
+  .heading2 {
+    font-size: 30px;
+  }
+  .heading3 {
+    font-size: 30px;
+  }
+  .explist {
+    font-size: 15px;
+  }
+  .awardname {
+    font-size: 15px;
+  }
+  .edu_name {
+    font-size: 15px;
+  }
+  .profilepic {
+    width: 150px;
+    height: 150px;
+  }
+  .profeciency_header {
+    font-size: 20px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+  .personal_infos {
+    font-size: 10px;
+  }
+  .language {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .framework {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .tool {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .database {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .languages {
+    margin:0 ;
+    padding: 0 ;
+  }
+  .frameworks {
+    margin:0 ;
+    padding: 0 ;
+  }
+  .tools {
+    margin:0 ;
+    padding: 0 ;
+  }
+  .databases {
+    margin:0 ;
+    padding: 0 ;
+  }
+  .rating {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .head1 {
+    font-size: 30px;
+  }
+  .desig {
+    font-size: 20px;
+  }
+  .awardname {
+    font-size: 10px;
+  }
+  .edu_name {
+    font-size: 10px;
+  }
+  .summary {
+    font-size: 10px;
+  }
+  .year_header {
+    font-size: 10px;
+  }
+  .exp_header {
+    text-align: center;
+    font-size: 10px;
+  }
+  .heading1 {
+    font-size: 20px;
+  }
+  .explist {
+    font-size: 10px;
+  }
+  .profilepic {
+    width: 90px;
+    height: 90px;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+  .heading3 {
+    font-size: 20px;
+  }
+  .fyyrs {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .profeciency_header {
+    font-size: 15px;
+  }
+
+  .heading {
+    font-size: 13px;
+  }
+  .personal_infos {
+    font-size: 7px;
+  }
+  .language {
+    padding: 2px;
+    font-size: 10px;
+  }
+  .framework {
+    padding: 2px;
+    font-size: 10px;
+  }
+  .tool {
+    padding: 2px;
+    font-size: 10px;
+  }
+  .database {
+    padding: 2px;
+    font-size: 10px;
+  }
+  .rating {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .head1 {
+    font-size: 20px;
+  }
+  .desig {
+    font-size: 10px;
+  }
+  .explist{
+    font-size: 7px;
+  }
+  .awardname {
+    font-size: 7px;
+  }
+  .edu_name {
+    font-size: 7px;
+  }
+  .edu_div {
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .profilepic {
+    width: 60px;
+    height: 60px;
+  }
+  .year1 {
+    padding-right: 0px !important;
+    padding-top: 110px;
+    padding-bottom: 90px;
+  }
+  .year2 {
+    padding-right: 0px !important;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .year3 {
+    padding-right: 0px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .year_header{
+    font-size: 7px;
+  }
+  .fyyrs {
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  .heading1 {
+    font-size: 15px;
+  }
+  .heading2 {
+    font-size: 15px;
+  }
+  .heading3 {
+    font-size: 15px;
+  }
+  .headerbrk1 {
+    margin: 0;
+    padding: 0;
+  }
+  .summary {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .heading {
+    font-size: 10px;
+  }
+  .personal_infos {
+    font-size: 5px;
+  }
+  .language {
+    padding: 2px;
+    font-size: 6px;
+  }
+  .framework {
+    padding: 2px;
+    font-size: 6px;
+  }
+  .tool {
+    padding: 2px;
+    font-size: 6px;
+  }
+  .database {
+    padding: 2px;
+    font-size: 6px;
+  }
+  .rating {
+    font-size: 6px;
+  }
+  .body_section>.col-12{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .section2{
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top:10px !important;
+  }
+  .exp_details{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .personal_info{
+    padding-left: 2px;
+  }
+  .heading1{
+    padding-left: 5px;
+    padding-top: 5px
+  }
+  .heading2{
+    padding-left: 5px;
+    padding-top: 5px
+  }
+  .heading3{
+    padding-left: 5px;
+    padding-top: 5px
+  }
+  .list{
+    padding-left: 15px;
+  }
+  .award{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .fyyrs{
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .edu_years{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .edu_div{
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
